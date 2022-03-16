@@ -1,6 +1,4 @@
-package com.solid.book;
-
-
+package com.solid.BOOK;
 import java.util.List;
 
 public class BookReader {
@@ -9,3 +7,4 @@ public class BookReader {
         book.printToScreen();
     }
 }
+

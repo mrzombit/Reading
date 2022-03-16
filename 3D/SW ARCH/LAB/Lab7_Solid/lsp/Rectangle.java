@@ -1,14 +1,15 @@
 package com.solid.lsp;
+import com.solid.lsp.Shape;
 
-public class Rectangle {
+public class Rectangle implements IShape{
     // DO NOT EDIT THE FILE FROM THIS LINE ONWARD!!
-    private int width;
+    private int width; 
     private int height;
 
-    Rectangle() {
+    public Rectangle() {
     }
 
-    Rectangle(int width, int height) {
+    public Rectangle(int width, int height) {
         this.width = width;
         this.height = height;
     }
@@ -28,7 +29,7 @@ public class Rectangle {
     public void setHeight(int height) {
         this.height = height;
     }
-
+    
     public int getArea() {
         return width * height;
     }

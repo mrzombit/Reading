@@ -1,22 +1,41 @@
 package com.solid.lsp;
+import com.solid.lsp.Shape;
 
-public class Square extends Rectangle {
 
-    Square(int side) {
+public class Square implements IShape{
+    
+    private int width;
+    private int height;
+    
+    public Square() {
+    }
+
+    public Square(int side) {
         this.setSide(side);
     }
 
-    @Override
-    public void setWidth(int width) {this.setSide(width);
+    public void setWidth(int width) {
+        this.setSide(width);
     }
 
-    @Override
     public void setHeight(int height) {
         this.setSide(height);
     }
 
-    public void setSide(int side) {
-        super.setWidth(side);
-        super.setHeight(side);
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    private void setSide(int side) {
+        this.height = side;
+        this.width = side;
+    }
+
+    public int getArea() {
+        return width * height;
     }
 }
