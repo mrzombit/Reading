@@ -1,0 +1,20 @@
+==== Printing Members ==== //A-Z (stack)
+Alice Henderson
+Bob Sanders
+Carol Sanders
+Ted Henderson
+==== Printing Members ==== //age: min->max
+Alice Henderson
+Carol Sanders
+Ted Henderson
+Bob Sanders
+==== Printing Members ==== //height: min->max
+Carol Sanders
+Alice Henderson
+Bob Sanders
+Ted Henderson
+==== Printing Members ==== //weight: min->max
+Alice Henderson
+Carol Sanders
+Bob Sanders
+Ted Henderson
